@@ -1,5 +1,4 @@
 package guru.springframework.controllers;
-
 import guru.springframework.commands.IngredientCommand;
 import guru.springframework.commands.RecipeCommand;
 import guru.springframework.commands.UnitOfMeasureCommand;
@@ -11,6 +10,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * Created by jt on 6/28/17.
+ */
 @Slf4j
 @Controller
 public class IngredientController {
